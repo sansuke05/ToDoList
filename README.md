@@ -1,4 +1,4 @@
 # ToDoList
 
-## Discription
+## Description
 Androidアプリの練習で作りました。
