@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:weightSum="1" >
+
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dummy"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:id="@+id/title"
+            android:layout_weight="0.8"/>
+
+    <TextView
+            android:text="DeadLine"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:id="@+id/deadLineView"
+            android:layout_weight="0.2"/>
+
+</LinearLayout>
